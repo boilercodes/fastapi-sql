@@ -43,14 +43,14 @@ The requirements for Docker are:
 
 To run this project, you will need to add the following environment variables.
 
-| Variable     | Description             | Default |
-|--------------|-------------------------|---------|
-| API_NAME     | The name of the API     | FastAPI |
-| API_ENDPOINT | The endpoint of the API | /api/v1 |
-| API_HOST     | The API host            | 0.0.0.0 |
-| API_PORT     | The API port            | 8080    |
-| POSTGRES_URI | The Postgres database URI | postgresql://postgres:changeme@localhost:5432/postgres |
-| DEBUG        | Toggles debug mode      | False   |
+| Variable     | Description               | Default                                                  |
+|--------------|---------------------------|----------------------------------------------------------|
+| API_NAME     | The name of the API       | "FastAPI"                                                |
+| API_ENDPOINT | The endpoint of the API   | "/api/v1"                                                |
+| API_HOST     | The API host              | "0.0.0.0"                                                |
+| API_PORT     | The API port              | 8080                                                     |
+| POSTGRES_URI | The Postgres database URI | "postgresql://postgres:changeme@localhost:5432/postgres" |
+| DEBUG        | Toggles debug mode        | False                                                    |
 
 ## Usage
 
